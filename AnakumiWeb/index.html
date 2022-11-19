@@ -19,6 +19,7 @@
    <body>
       <!-- Page Content START -->
       <div class="page-content">
+         
          <!-- Main Nav START -->
          <nav id="main-nav" class="main-nav fixed">
             <div class="container">
@@ -38,8 +39,9 @@
                            <li><a href="contacts.html" title="contacts">Contacte</a></li>
                         </ul>
                         <div class="riglt-floats-xs">
-                           <a href="#" class="btn-login"><span class="ic-sx21"></span> Connecter-vous</a>
-                           <a href="/how-start.html" class="btn-startgames"><span class="ic-sx22"></span> Commencez à jouer</a>
+                           <a href="login" class="btn-startgames"><span class="ic-sx21"></span> Connecter-vous</a>
+                           <a href="register.html" class="btn-startgames"><span class="ic-sx21"></span> Inscriver-vous</a>
+                           <a href="download.html" class="btn-startgames"><span class="ic-sx22"></span> Commencez à jouer</a>
                         </div>
                      </div>
                   </div>
@@ -47,13 +49,14 @@
             </div>
          </nav>
          <!-- Main Nav END -->
+
          <!-- Home Section START -->
          <section id="home-sec" class="main-banner parallax">
             <div class="bg-lefts"></div>
             <div class="container">
                <div class="row">
                   <div class="col-lg-9">
-                     <!-- Swiper -->
+                     <!-- Swiper start -->
                      <div class="swiper-container">
                         <div class="swiper-wrapper">
                            <div class="swiper-slide" data-hash="slide1">
@@ -97,8 +100,10 @@
                               </div>
                            </div>
                         </div>
+                        <!--Swipper end-->
                         <!-- Add Pagination -->
-                        <div class="swiper-pagination"></div>
+                        <div class="swiper-pagination">
+                        </div>
                         <!-- Add Arrows -->
                      </div>
                   </div>
@@ -116,6 +121,7 @@
             </div>
          </section>
          <!-- Home Section END -->
+
          <div class="container">
             <div class="row">
                <div class="col-lg-9 col-md-9">
@@ -166,8 +172,51 @@
                      <span class="time-data">04.11.22 16:12</span>
                   </div>
                </div>
+               <div class="col-lg-3 col-md-3">
+                  <div class="right-block">
+                     <div class="n-m">Les diférant serveur</div>
+                     <div class="server online">
+                        <div class="second circle">
+                           <strong></strong>
+                        </div>
+                        <div class="server_name"><a href="#">01 Lobby</a></div>
+                        <div class="server_players">
+                           Players: 50/1000
+                        </div>
+                     </div>
+                     <div class="server online">
+                        <div class="second circle">
+                           <strong></strong>
+                        </div>
+                        <div class="server_name"><a href="#">02 AnakumiWorld</a></div>
+                        <div class="server_players">
+                           Players: 850/1000
+                        </div>
+                     </div>
+                     <div class="server online">
+                        <div class="second circle">
+                           <strong></strong>
+                        </div>
+                        <div class="server_name"><a href="#">03 FlyIsland</a></div>
+                        <div class="server_players">
+                           Players: 784/1000
+                        </div>
+                     </div>
+                     <div class="server online">
+                        <div class="second circle">
+                           <strong></strong>
+                        </div>
+                        <div class="server_name"><a href="#">04 Mine</a></div>
+                        <div class="server_players">
+                           Players: 680/1000
+                        </div>
+                     </div>
+                     <p class="tdx-strom"><span class="online-o"></span> Total players: 2173</p>
+                  </div>
+               </div>
             </div>
          </div>
+
          <!-- Footer START -->
          <footer class="section site-footer bg-dark">
             <div class="container">
@@ -195,7 +244,8 @@
          <!-- Footer END -->
       </div>
       <!-- Page Content END -->	
-      <script src="./dist./js/swiper.min.js"></script>
+
+      <script src="dist/js/swiper.min.js"></script>
       <!-- Initialize Swiper -->
       <script>
          var swiper = new Swiper('.swiper-container', {
